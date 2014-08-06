@@ -8,6 +8,7 @@ install:
 
 # Make folders for the reports
 before_script:
+  - env
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 
@@ -15,6 +16,9 @@ script:
   - nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
+  
+after_archive:
+  - env
 
 notifications:
   email:
