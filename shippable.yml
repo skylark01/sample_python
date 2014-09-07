@@ -5,7 +5,7 @@ python:
   
 env:
   global:
-    - secure: aMw7Sw1TAkjEDMPyrAXwad0sVAldgj9HrRtUVjHaFgHGVu4MYot3t98/ieSa8SheG07scUJYj/nnp6A2Fz7SsKR3YCFF7TV6PXMltA3J2EQSkVWscZa39oHwDMJqCGdZdwh9WkVrNzh6XXtUq6tBs31F/MyO0LbwgE12zqEmP1IDIuMtXavnkHTCr1FIdNd0BicSEifYVFf6youRdz1PMILMGGsgO2uZZDELhl9++FvbwbXJSGuRvqIQ1fekY/LU2ra7RzDdzjKMOujAsRIXf5pw1a/X4Y+LNc/QQ6DNB7XvhLTWECAzr0/15Z+FjT3m6OtFj1D59RvtpppauhHiDA==
+    - secure: fXsBU5pfN101rTVbQCS0JGpYlcZVqH3Pvz9XmcxYU0shxjks2zUnumlL84KkP7K+iosUjGLMD/4GCQGtZL/TqYvASreiASDrv0kAQErOehwgmtEgaLAljQmN9qWCCkUMkzRL86EQksZs6lE5q/nCM87bC1vX0FmeRkeTFlnzBzwuwwsGvFRiDJ9WIPKpnrRuaQOfnACcjENXK4HMbikWXz2UAqJI/IT66HH6BO1QneRFgjfQKyAFoEYE5spo3JgBRUGyiLwBe1//3AHq1TiKwR79Fj8uyvB3W1TyN5JOPGm+tVojNDSIIjJdDgj5Ay8NtEi5qEaSMyjeXx+VsIEnNQ==
 
 install:
   - pip install -r requirements.txt
