@@ -22,10 +22,3 @@ script:
   
 after_archive:
   - env
-  
-matrix:
-  include:
-    - python: 2.6
-      env: CUSTOM_VER=2.6
-  exclude:
-    - python: 2.7
