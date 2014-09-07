@@ -3,12 +3,15 @@ language: python
 python:
   - 2.7
   
+env:
+  global:
+    - secure: madO/Q69Ga7ffIqd20HQAXWCY/SMXCrn4Oj7xOZ6P9dfLQ5i0kgXtU5zOVd/zehI5/n+tCcyJ3QWIYJUHaf7Z9R9N8RBRviEmghKGyC/8peGH6b34n5J0IArDP2wMW/eAIyEuvSkTnne1HYZbFTTux4P+Kc7vfmM12tpNc/5QLXb9cmoRyxGJaA5MoLvqvuXdexVmMGnthZHVHCJwOFo0DtqmIQBt+APvXgB6HrcdthVwCM24DwC35KjQZFOYJ9nbdqRBO/GrYB/vYp1HfQPSw79wXQpDlvlWdGVOie4blpw55qgvj/tQbAlD4k5a/azUviqZrrj+9ybnNkPhB8wRQ==
+  
 install:
   - pip install -r requirements.txt
 
 # Make folders for the reports
 before_script:
-  - env
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 
@@ -19,10 +22,3 @@ script:
   
 after_archive:
   - env
-
-notifications:
-  email:
-   - exampleone@org.com
-
-commit_container: ragesh/pythonbuild
-archive: true
