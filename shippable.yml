@@ -2,11 +2,7 @@ language: python
 
 python:
   - 2.7
-  
-env:
-  global:
-    - secure: zalTmfF0Xt76c8rr3BllvFK42iXhRRj5qClZreg9C/X8389a76R/zQrB/BSfYnoG5sc2JM8W/K16YXDLxf5dvEQGXPh25NWfxa7u9tB6OwpTTu0/JBmT0UDcYT4cPITY2lu9iMeA1SuO5D7tCeEFxtEnPKYaypqwa5HwNObYfqHKfSXK6xPOJwJMbUv51BtF/d5doAoi63OvgLa+Jw1XpyCKMqIF4gXKeeicG50rgxoJ9lDbA6zm9uU6i3SJfUGtEcUMbiOdE2zgpw8XeR9Gs8JrmIJL7xA/7JnmZlKP7CTIePH6sJEE2VkEZvm2NR55e+2s//fkLIj7weZPGpzsew==
-  
+
 install:
   - pip install -r requirements.txt
 
