@@ -10,6 +10,7 @@ env:
     - DUMMY_VAR=123
     - ANOTHER_DUMMY=456
     - secure: VQEyd+zOPXgEqEvzoQukQHD6StsZm3Te8k901XSM8qixAGzAa/JlplhSFXhF09MNNwmsgZeNmzGgCym5P9qY3hcKyV/ingndFG0xrUG+ALni/nrJFWJ2InxM02yOQGAwTKqskp38KDiV5Vg4aSy06Vj1cwG/nura975Cqvrg+cXVUF7DXqUeLN0I55ao948A12fTmDzJMJ5XZkxA7UeabY6P7szZLFf/9KwmjQaLKFhwq1WXfI3KjEh7dZcvS1mxpmwnFgUwCA9UNkWkFJAURmoGhKU6W71A4dbl499ch/3bxzaEmz0baFAa2NxNccnhb9z+yAgB0OlB9ByjWUv9Lw==
+    - secure: PC8F3+2yVxt1a5JbBpqh7AUlco1sgSeC+hOCM1BjVbuoGCnrWSYzNIHKqWOja3Rifqg1+mehrOUlhDYPsOGnOi7eZa81wGkr5PLLV0UynuHqc5hVT5BxW1ADOvEiSVJaBEggfFpT/KLz5hwyTWecYk1UeL4/7x9S72c8OIdUKn3YdPkcufs6NIKC5C80fu3xjCCDRDvx3Wky/WmlNkHGZJqCG8M3JSzKajRIvW+rCOvSsCtj8oj0useUcbCTc0oBQBffS8Gte2j+Dw7OZjxmQVlNybEzFMOvxX2m18cQPmiqCJMv305MpVPfAiR0yVgo/VFeJwCFh4nU/Koq8YoP5g==
 
 install:
   - pip install -r requirements.txt
