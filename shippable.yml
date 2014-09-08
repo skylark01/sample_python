@@ -4,6 +4,7 @@ python:
   - 2.7
   
 env:
+  - TICK=tock
   - secure: PC8F3+2yVxt1a5JbBpqh7AUlco1sgSeC+hOCM1BjVbuoGCnrWSYzNIHKqWOja3Rifqg1+mehrOUlhDYPsOGnOi7eZa81wGkr5PLLV0UynuHqc5hVT5BxW1ADOvEiSVJaBEggfFpT/KLz5hwyTWecYk1UeL4/7x9S72c8OIdUKn3YdPkcufs6NIKC5C80fu3xjCCDRDvx3Wky/WmlNkHGZJqCG8M3JSzKajRIvW+rCOvSsCtj8oj0useUcbCTc0oBQBffS8Gte2j+Dw7OZjxmQVlNybEzFMOvxX2m18cQPmiqCJMv305MpVPfAiR0yVgo/VFeJwCFh4nU/Koq8YoP5g==
 
 
@@ -24,3 +25,10 @@ after_archive:
   - env
 
 archive: true
+
+matrix:
+  include:
+    - python: 2.6
+      env:
+        - fizz=bin
+        - foo=bar
