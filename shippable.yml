@@ -28,8 +28,3 @@ after_archive:
   - env
 
 archive: true
-
-matrix:
-  include:
-    - python: 2.6
-      env: FIZZ=bin
