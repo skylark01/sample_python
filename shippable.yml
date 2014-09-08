@@ -24,7 +24,6 @@ script:
   - #which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
   - echo $SOME_VAR
   - echo $FIZZ
-  - echo $FOO
 
 after_archive:
   - env
@@ -34,6 +33,4 @@ archive: true
 matrix:
   include:
     - python: 2.6
-      env:
-        - fizz=bin
-        - foo=bar
+      env: FIZZ=bin
