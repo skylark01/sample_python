@@ -34,3 +34,5 @@ matrix:
   include:
     - python: 2.6
       env: BLAH=blah
+  exclude:
+    - env: TICK=tock
